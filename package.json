@@ -1,0 +1,19 @@
+{
+  "name": "manda",
+  "version": "0.0.1",
+  "description": "前端项目生成脚手架工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roninliu/manda.git"
+  },
+  "author": "Ronin Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roninliu/manda/issues"
+  },
+  "homepage": "https://github.com/roninliu/manda#readme"
+}
