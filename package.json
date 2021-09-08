@@ -1,0 +1,32 @@
+{
+  "name": "manda",
+  "version": "1.0.2",
+  "description": "前端项目生成脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "manda": "./bin/manda.ts"
+  },
+  "scripts": {
+    "start": "tsc --watch",
+    "lint":"eslint ./src --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roninliu/manda.git"
+  },
+  "author": "Ronin Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roninliu/manda/issues"
+  },
+  "homepage": "https://github.com/roninliu/manda#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.13",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "typescript": "^4.4.2"
+  }
+}
